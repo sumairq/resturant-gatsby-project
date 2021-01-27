@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import {createGlobalStyle} from 'styled-components'
 import Navbar from '../components/Globals/navbar'
-import Footer from '../components/globals/Footer'
+import Footer from '../components/Globals/Footer'
 // import "./bootstrap.min.css"
  import "./layout.css"
 import '../sass/layout.scss'
