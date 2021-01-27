@@ -5,6 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import {createGlobalStyle} from 'styled-components'
 import Navbar from '../components/Globals/navbar'
+import Footer from '../components/globals/Footer'
 // import "./bootstrap.min.css"
  import "./layout.css"
 import '../sass/layout.scss'
@@ -16,6 +17,7 @@ const Layout = ({children}) => {
       <GlobalStyle/>
       <Navbar/>
     {children}
+    <Footer/>
     </React.Fragment>
   )
 }

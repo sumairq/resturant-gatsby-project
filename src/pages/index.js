@@ -3,15 +3,24 @@ import { Link } from "gatsby"
 import styled from 'styled-components'
 import { FaAws } from "react-icons/fa";
 import Layout from "../components/layout"
-import Image from "../components/image"
+import {HomeHeader, Banner, BannerButton, SectionButton} from '../utils'
 import SEO from "../components/seo"
-
+import img from '../images/bcg/homeBcg.jpeg'
+import QuickInfo from '../components/HomePageComponents/QuickInfo'
+import Gallery from '../components/HomePageComponents/Gallery-1'
+import {Section} from '../utils'
+ 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     
-<h3>this is our home page</h3>
-   
+<HomeHeader img={img}>
+  <Banner title="eatery" subtitle="55 main street. Santa Monica, CA" >
+    <BannerButton style={{margin: '2rem auto'}}>Our Menu</BannerButton>
+    </Banner> 
+</HomeHeader>
+<QuickInfo/>
+<Gallery/>
   </Layout>
 )
 
