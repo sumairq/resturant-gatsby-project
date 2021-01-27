@@ -17,7 +17,7 @@ export default class Footer extends Component {
               path:`https://www.twitter.com`
           },
           {
-              id: 1,
+              id: 3,
               icon: <FaInstagram className= "icon instagram-icon"/>,
               path:`https://www.instagram.com`
           },
